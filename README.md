@@ -10,7 +10,7 @@
 pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl
 pip install face_recognition
 ```
-
+ubuntu[参考教程](https://www.zhihu.com/question/34524316/answer/182278536)
 #### 1.2 skimage
 
 ```makefile
@@ -31,7 +31,7 @@ pip install tqdm
 pip install numpy-1.21.5+mkl-cp37-cp37m-win_amd64.whl
 pip install scipy-1.7.3-cp37-cp37m-win_amd64.whl
 ```
-
+ubuntu 参考官方[教程](https://scipy.org/install/#ubuntu-and-debian)
 #### 1.5 pytorch
 
 按照[官网](https://pytorch.org/)步骤安装即可。
