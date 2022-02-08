@@ -25,7 +25,7 @@ pip install tqdm
 
 #### 1.4 scipy
 
-在[这里]([Python Extension Packages for Windows - Christoph Gohlke (uci.edu)](https://www.lfd.uci.edu/~gohlke/pythonlibs/))找到包含MKL库版本的numpy和scipy文件（对应自己的py版本）下载并安装。
+在[Python Extension Packages for Windows - Christoph Gohlke (uci.edu)](https://www.lfd.uci.edu/~gohlke/pythonlibs/))找到包含MKL库版本的numpy和scipy文件（对应自己的py版本）下载并安装。
 
 ```
 pip install numpy-1.21.5+mkl-cp37-cp37m-win_amd64.whl
