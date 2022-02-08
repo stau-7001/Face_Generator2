@@ -49,6 +49,12 @@ pip install insightface==0.2.1 onnxruntime moviepy
 pip install onnxruntime-gpu #推荐1.2.0版本
 ```
 
+#### 1.8 其他
+
+从[此处](https://pan.baidu.com/s/114OSFzWFTcybptxSGUMXIQ)下载shape_predictor（提取码:fbhp），并将其放于**主目录**下。
+
+从[此处](https://pan.baidu.com/s/1wPWBEibxtblB_RNSxY84uw )下载arcface checkpoint（提取码：5npc），并将其放于`./models`目录下
+
 ### 2 使用说明
 
 将视频文件放于video文件夹下(可以使用`python movevideo.py`将指定目录下所有视频文件挪至video文件夹下)，使用下列命令开始采集。
@@ -67,7 +73,7 @@ python face_cut.py -r 512 -t 300 -m 0 -i 5 -s 60 -b 100
 
 `-s` ：未检测到人脸时跳过的帧数量
 
-`-b` ：失焦模糊检测的阈值
+`-b` ：失焦模糊检测的阈值（参考值为100）
 
 其他：文件中两个参数Max_int = 40，Min_int = 5指动态采集间隔的最大和最小值，增加Min_int和Max_int会减少人脸采集数量，提高人脸图像之间的差异。反之，人脸采集数量增加，差异减小。
 
