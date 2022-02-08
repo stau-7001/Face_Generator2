@@ -51,19 +51,19 @@ pip install onnxruntime-gpu #推荐1.2.0版本
 
 #### 1.8 其他
 
-从[此处](https://pan.baidu.com/s/114OSFzWFTcybptxSGUMXIQ)下载shape_predictor（提取码:fbhp），并将其放于**主目录**下。
+从[此处](https://pan.baidu.com/s/114OSFzWFTcybptxSGUMXIQ)下载shape_predictor（提取码: fbhp），并将其放于**主目录**下。
 
-从[此处](https://pan.baidu.com/s/1wPWBEibxtblB_RNSxY84uw )下载arcface checkpoint（提取码：5npc），并将其放于`./models`目录下
+从[此处](https://pan.baidu.com/s/1wPWBEibxtblB_RNSxY84uw )下载arcface checkpoint（提取码: 5npc），并将其放于`./models`目录下
 
 ### 2 使用说明
 
-将视频文件放于video文件夹下(可以使用`python movevideo.py`将指定目录下所有视频文件挪至video文件夹下)，使用下列命令开始采集。
+将视频文件放于video文件夹下（可以使用`python movevideo.py`将指定目录下所有视频文件挪至video文件夹下），使用下列命令开始采集。
 
 ```makefile
 python face_cut.py -r 512 -t 300 -m 0 -i 5 -s 60 -b 100
 ```
 
-`-r` ：采集出来人脸的分辨率
+`-r` ：采集的人脸的分辨率
 
 `-t` ：可以容忍的原人脸分辨率的范围（分辨率大于**r-t**的人脸会被采集并resize到r）
 
